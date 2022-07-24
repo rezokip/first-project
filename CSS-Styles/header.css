@@ -1,0 +1,118 @@
+.header{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0px;
+  margin-left: 5px;
+  height: 100px;
+ z-index: 1;
+}
+
+
+.left-section,
+.mid-section,
+.right-section{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+
+
+.left-section img,
+.left-section div,
+.left-section p,
+.mid-section img,
+.right-section div{
+  
+  margin-right: 20px;
+  cursor: pointer;
+}
+.right-section div:hover{
+  color: orange;
+}
+.hamburger-button{
+  width: 20px;
+}
+
+.hamburger-icon{
+  width: 100%;
+}
+.phone-icon,
+.mid-section img{
+
+  width: 20px;
+}
+
+.left-section p,
+.left-section div{
+  color: rgba(255, 0, 0, 0.568);
+  font-weight: bold;
+  font-size: 18px;
+
+}
+div span {
+  color: orange;
+}
+
+.straße{
+
+flex-shrink: 0;
+}
+
+
+
+
+
+@media screen and (max-width:1220px){
+  .right-section{
+    display:none;
+
+  }
+  .header{
+    justify-content: space-between;
+  }
+  .left-section img{
+    
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 1220px){
+  .hamburger-icon{
+    display: none;
+  }
+}
+
+@media screen and (max-width:700px )  {
+  .mid-section{
+    display: none;
+  }
+  
+  .left-section,
+  .left-section div,
+  .left-section p{
+    font-size: 15px;
+    margin-right: 10px;
+    
+  }
+  .telenummer{
+    margin-left: -10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

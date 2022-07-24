@@ -1,0 +1,84 @@
+
+
+
+.main {
+  
+  position: absolute;
+  position:relative;
+  right: 50px;
+  left: 5px;
+  height: 700px;
+  background-color: grey;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+
+
+}
+.mainbild{
+border-radius: 50px;
+width: 95%;
+height: 100%;
+object-fit: cover;
+
+  
+}
+.logo-box{
+  position: absolute;   
+  width: 900px;
+
+
+     
+    
+}
+.logo-box .logo{
+ width: 100%;
+  
+}
+
+
+.präsentationbox{
+  margin: 50px ;
+  display: flex;
+ 
+}
+.präsentationbox div{
+  display:flex;
+  flex: 1;
+    background-color: red;
+ 
+}
+.präsentationbox div img{
+  flex:1;
+  object-fit: cover;
+  width: 60%;
+}
+.präsentationbox p{
+  flex:1;
+  background-color: red;
+ 
+  
+}
+
+
+ .sozial{
+  position:absolute;
+  left: 60px;
+  top: 10px;
+  
+  display:flex;
+  width: 25px;
+  
+ }
+ .sozial img{
+ width: 100%; 
+ margin-right: 20px;
+ 
+ }
+
+
+
+ 
+ 
+ 
