@@ -1,34 +1,43 @@
 .menu{
   
   
-  background-color: rgb(212, 120, 33);
+  background-color: rgb(255, 255, 255);
+ 
+  
   position: fixed;
   left:0;
-  top:100px;
-  height: 300px;
-  width: 180px;
+  top:70px;
+  height: 350px;
+  width: 160px;
+  
   margin-left: 5px;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  opacity: 0.7;
+  justify-content: center;
+  opacity: 0.5;
+  pointer-events: none;
 
 
 }
+.menu div{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .menu div:hover{
+  background-color: grey;
   color: orange;
 }
 
 
 
-.hamburger-button:hover .menu{
+.hamburger-button:active .menu{
   opacity:1;
 }
 
 .sozial2{
  
-  
+  background-color: white;
   
   display:flex;
   width: 25px;
@@ -36,6 +45,7 @@
  }
  .sozial2 img{
  width: 100%; 
- margin-right: 20px;
+ margin-right: 10px;
+ 
  
  }
